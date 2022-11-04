@@ -1,0 +1,9 @@
+swig -python -c++ DobleART.i
+g++ -c -fpic DobleART_wrap.cxx -I/usr/include/python3.10
+g++ -shared DobleART_wrap.o -o _DobleART.so
+
+para iniciar programa dinamico sin que de error
+
+python3
+import DobleART
+exit()

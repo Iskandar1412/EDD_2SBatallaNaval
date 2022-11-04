@@ -1,0 +1,20 @@
+digraph G{
+node[shape=record, color=blue];
+R0x564fb8d1c710[label="<C1>|ID: 30\nUsr: Mindy9491\nPass: 4f8db4b9b0d4e26b5dbdf842c93c5bbb2224797ad9eae50639991bb4fe2354ca\nEdad: 48\nMonedas: 5186|<C2>"];
+R0x564fb8d1c570[label="<C1>|ID: 14\nUsr: Freida8077\nPass: 6625e565fab4809dc7662ada16285c7dd1fe4c8963dd621a3a094ffdfc10bd43\nEdad: 15\nMonedas: 1030|<C2>|ID: 28\nUsr: Maricela1491\nPass: 43f617e7c26c82bfad49c9b32c6d8977079cd964c86312168424a24d5a83c11b\nEdad: 56\nMonedas: 4033|<C3>"];
+R0x564fb8d1b460[label="ID: 13\nUsr: Morris398\nPass: 5069c9cc7b5ae8e790d93b23b904522e3a84ba7cc9a46da5484d803e6fad1813\nEdad: 19\nMonedas: 6011"];
+R0x564fb8d1c230[label="ID: 17\nUsr: Sherry9599\nPass: 8ae968891b6131dc2dcd0eac5c6b310ae1adf05ed83757bf3a427cf13be41016\nEdad: 50\nMonedas: 3291|ID: 19\nUsr: Garner8579\nPass: ff749aa29b6c61c260788845c7ea09d7ac9e6c1939f1eaaff9318e67fa73c1f7\nEdad: 59\nMonedas: 3841"];
+R0x564fb8d1c4a0[label="ID: 29\nUsr: Alberta2565\nPass: cac42976c408e599090e8a407ba5968d59c40dd49dfd069c843498ed73d965f5\nEdad: 26\nMonedas: 6954"];
+R0x564fb8d1c7e0[label="<C1>|ID: 34\nUsr: Sanchez987\nPass: 857aba7c59662e1c306cf59c0c2199ec1d2ce895a928fb62b54f034760ebe8a6\nEdad: 12\nMonedas: 2169|<C2>|ID: 45\nUsr: Potts4095\nPass: f890b04ce28ad415a3cc3b6fcbea3583f48ae6b3743ef32c5e1cec937baf5c3e\nEdad: 47\nMonedas: 2158|<C3>"];
+R0x564fb8d1bfc0[label="ID: 32\nUsr: Randolph3074\nPass: c84512089a80cd84367ce20bcc6613982b13c4dbd289c4908578466aed2e8680\nEdad: 44\nMonedas: 1170"];
+R0x564fb8d1c980[label="ID: 36\nUsr: Latasha4052\nPass: eba0757c94fbe07f31fc4dd697cbbc612e757627238bfb2aa332afef737b258c\nEdad: 37\nMonedas: 2808|ID: 44\nUsr: Petra178\nPass: e7cebd5b4b754acf6ecf77e95701b60c4de72f459015b61dcb8cf146e383d336\nEdad: 59\nMonedas: 9796"];
+R0x564fb8d1cbf0[label="ID: 51\nUsr: Becky9663\nPass: 576d3dfe0ecb07ee156e1958f5cff34bc3961e44fba5943afb69360dc470ba70\nEdad: 49\nMonedas: 9894"];
+R0x564fb8d1c710:C1->R0x564fb8d1c570[color=red];
+R0x564fb8d1c570:C1->R0x564fb8d1b460[color=red];
+R0x564fb8d1c570:C2->R0x564fb8d1c230[color=red];
+R0x564fb8d1c570:C3->R0x564fb8d1c4a0[color=red];
+R0x564fb8d1c710:C2->R0x564fb8d1c7e0[color=red];
+R0x564fb8d1c7e0:C1->R0x564fb8d1bfc0[color=red];
+R0x564fb8d1c7e0:C2->R0x564fb8d1c980[color=red];
+R0x564fb8d1c7e0:C3->R0x564fb8d1cbf0[color=red];
+}

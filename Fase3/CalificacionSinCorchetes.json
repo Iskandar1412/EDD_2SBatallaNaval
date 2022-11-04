@@ -1,0 +1,510 @@
+
+{
+  "usuarios": [
+    {
+      "id": 102,
+      "nick": "u1",
+      "password": "123",
+      "monedas": 6976,
+      "edad": 47
+    },
+    {
+      "id": 97,
+      "nick": "u2",
+      "password": "123",
+      "monedas": 4232,
+      "edad": 56
+    },
+    {
+      "id": 56,
+      "nick": "u3",
+      "password": "123",
+      "monedas": 6901,
+      "edad": 32
+    },
+    {
+      "id": 104,
+      "nick": "u4",
+      "password": "123",
+      "monedas": 8616,
+      "edad": 30
+    },
+    {
+      "id": 112,
+      "nick": "Tabatha9866",
+      "password": "URBANSHEE",
+      "monedas": 6676,
+      "edad": 58
+    },
+    {
+      "id": 73,
+      "nick": "Letitia8666",
+      "password": "COMBOGEN",
+      "monedas": 4440,
+      "edad": 53
+    },
+    {
+      "id": 100,
+      "nick": "Dejesus2371",
+      "password": "EWAVES",
+      "monedas": 6928,
+      "edad": 47
+    },
+    {
+      "id": 100,
+      "nick": "r100",
+      "password": "123",
+      "monedas": 6609,
+      "edad": 24
+    },
+    {
+      "id": 70,
+      "nick": "Lauren4488",
+      "password": "EXOTERIC",
+      "monedas": 7632,
+      "edad": 11
+    },
+    {
+      "id": 119,
+      "nick": "Young1259",
+      "password": "PEARLESEX",
+      "monedas": 1076,
+      "edad": 54
+    },
+    {
+      "id": 73,
+      "nick": "Jeanne556",
+      "password": "GORGANIC",
+      "monedas": 1251,
+      "edad": 38
+    },
+    {
+      "id": 79,
+      "nick": "Diane8189",
+      "password": "ACCUPRINT",
+      "monedas": 7572,
+      "edad": 50
+    },
+    {
+      "id": 117,
+      "nick": "Liz7870",
+      "password": "MONDICIL",
+      "monedas": 7674,
+      "edad": 59
+    },
+    {
+      "id": 92,
+      "nick": "Twila8587",
+      "password": "ZANILLA",
+      "monedas": 4190,
+      "edad": 16
+    },
+    {
+      "id": 102,
+      "nick": "penultimo",
+      "password": "123",
+      "monedas": 8388,
+      "edad": 45
+    },
+    {
+      "id": 34,
+      "nick": "ultimo",
+      "password": "123",
+      "monedas": 5258,
+      "edad": 25
+    }
+  ],
+  "articulos": [
+    {
+      "id": 1092,
+      "categoria": "Level4",
+      "precio": 26,
+      "nombre": "Whitfield",
+      "src": "/home/ruri/Escritorio/imgs/img(73).png"
+    },
+    {
+      "id": 887,
+      "categoria": "Level1",
+      "precio": 36,
+      "nombre": "James",
+      "src": "/home/ruri/Escritorio/imgs/img(36).png"
+    },
+    {
+      "id": 938,
+      "categoria": "Level1",
+      "precio": 28,
+      "nombre": "Ferrell",
+      "src": "/home/ruri/Escritorio/imgs/img(11).png"
+    },
+    {
+      "id": 1104,
+      "categoria": "Leve2",
+      "precio": 38,
+      "nombre": "Sosa",
+      "src": "/home/ruri/Escritorio/imgs/img(66).png"
+    },
+    {
+      "id": 810,
+      "categoria": "Leve2",
+      "precio": 26,
+      "nombre": "Pittman",
+      "src": "/home/ruri/Escritorio/imgs/img(98).png"
+    },
+    {
+      "id": 1821,
+      "categoria": "Level4",
+      "precio": 34,
+      "nombre": "Summers",
+      "src": "/home/ruri/Escritorio/imgs/img(100).png"
+    },
+    {
+      "id": 1791,
+      "categoria": "Level1",
+      "precio": 36,
+      "nombre": "Leblanc",
+      "src": "/home/ruri/Escritorio/imgs/img(15).png"
+    },
+    {
+      "id": 1373,
+      "categoria": "Level1",
+      "precio": 28,
+      "nombre": "Mcleod",
+      "src": "/home/ruri/Escritorio/imgs/img(119).png"
+    },
+    {
+      "id": 1530,
+      "categoria": "Level3",
+      "precio": 35,
+      "nombre": "Washington",
+      "src": "/home/ruri/Escritorio/imgs/img(6).png"
+    },
+    {
+      "id": 649,
+      "categoria": "Level4",
+      "precio": 21,
+      "nombre": "Howard",
+      "src": "/home/ruri/Escritorio/imgs/img(54).png"
+    },
+    {
+      "id": 1067,
+      "categoria": "Level1",
+      "precio": 39,
+      "nombre": "Perry",
+      "src": "/home/ruri/Escritorio/imgs/img(95).png"
+    },
+    {
+      "id": 754,
+      "categoria": "Level4",
+      "precio": 39,
+      "nombre": "Rice",
+      "src": "/home/ruri/Escritorio/imgs/img(65).png"
+    },
+    {
+      "id": 680,
+      "categoria": "Level4",
+      "precio": 37,
+      "nombre": "Hensley",
+      "src": "/home/ruri/Escritorio/imgs/img(18).png"
+    },
+    {
+      "id": 1106,
+      "categoria": "Level3",
+      "precio": 39,
+      "nombre": "Mills",
+      "src": "/home/ruri/Escritorio/imgs/img(125).png"
+    },
+    {
+      "id": 1225,
+      "categoria": "Level4",
+      "precio": 29,
+      "nombre": "Mcintosh",
+      "src": "/home/ruri/Escritorio/imgs/img(78).png"
+    },
+    {
+      "id": 1274,
+      "categoria": "Leve2",
+      "precio": 38,
+      "nombre": "Mcbride",
+      "src": "/home/ruri/Escritorio/imgs/img(93).png"
+    },
+    {
+      "id": 1276,
+      "categoria": "Level4",
+      "precio": 36,
+      "nombre": "Ford",
+      "src": "/home/ruri/Escritorio/imgs/img(103).png"
+    },
+    {
+      "id": 660,
+      "categoria": "Level3",
+      "precio": 38,
+      "nombre": "Joyner",
+      "src": "/home/ruri/Escritorio/imgs/img(102).png"
+    },
+    {
+      "id": 501,
+      "categoria": "Level3",
+      "precio": 33,
+      "nombre": "Barnett",
+      "src": "/home/ruri/Escritorio/imgs/img(5).png"
+    },
+    {
+      "id": 1384,
+      "categoria": "Level1",
+      "precio": 39,
+      "nombre": "Charles",
+      "src": "/home/ruri/Escritorio/imgs/img(100).png"
+    },
+    {
+      "id": 924,
+      "categoria": "Level3",
+      "precio": 31,
+      "nombre": "Mcknight",
+      "src": "/home/ruri/Escritorio/imgs/img(39).png"
+    },
+    {
+      "id": 1839,
+      "categoria": "Level3",
+      "precio": 23,
+      "nombre": "Wyatt",
+      "src": "/home/ruri/Escritorio/imgs/img(77).png"
+    }
+  ],
+  "tutorial": {
+    "m": 50,
+    "movimientos": [
+      {
+        "x": 27,
+        "y": 29
+      },
+      {
+        "x": 36,
+        "y": 31
+      },
+      {
+        "x": 20,
+        "y": 35
+      },
+      {
+        "x": 34,
+        "y": 40
+      },
+      {
+        "x": 37,
+        "y": 26
+      },
+      {
+        "x": 38,
+        "y": 39
+      },
+      {
+        "x": 32,
+        "y": 35
+      },
+      {
+        "x": 21,
+        "y": 33
+      },
+      {
+        "x": 36,
+        "y": 22
+      },
+      {
+        "x": 29,
+        "y": 26
+      },
+      {
+        "x": 26,
+        "y": 29
+      },
+      {
+        "x": 31,
+        "y": 40
+      },
+      {
+        "x": 29,
+        "y": 21
+      },
+      {
+        "x": 36,
+        "y": 39
+      },
+      {
+        "x": 26,
+        "y": 21
+      },
+      {
+        "x": 36,
+        "y": 23
+      },
+      {
+        "x": 40,
+        "y": 39
+      },
+      {
+        "x": 38,
+        "y": 36
+      },
+      {
+        "x": 28,
+        "y": 34
+      },
+      {
+        "x": 28,
+        "y": 20
+      },
+      {
+        "x": 33,
+        "y": 25
+      },
+      {
+        "x": 20,
+        "y": 28
+      },
+      {
+        "x": 24,
+        "y": 20
+      },
+      {
+        "x": 25,
+        "y": 27
+      },
+      {
+        "x": 30,
+        "y": 25
+      },
+      {
+        "x": 29,
+        "y": 25
+      },
+      {
+        "x": 28,
+        "y": 35
+      },
+      {
+        "x": 29,
+        "y": 36
+      },
+      {
+        "x": 23,
+        "y": 39
+      },
+      {
+        "x": 26,
+        "y": 25
+      },
+      {
+        "x": 34,
+        "y": 27
+      },
+      {
+        "x": 30,
+        "y": 20
+      },
+      {
+        "x": 37,
+        "y": 32
+      },
+      {
+        "x": 37,
+        "y": 29
+      },
+      {
+        "x": 35,
+        "y": 34
+      },
+      {
+        "x": 21,
+        "y": 40
+      },
+      {
+        "x": 31,
+        "y": 21
+      },
+      {
+        "x": 38,
+        "y": 29
+      },
+      {
+        "x": 21,
+        "y": 34
+      },
+      {
+        "x": 24,
+        "y": 36
+      },
+      {
+        "x": 33,
+        "y": 35
+      },
+      {
+        "x": 40,
+        "y": 27
+      },
+      {
+        "x": 24,
+        "y": 29
+      },
+      {
+        "x": 26,
+        "y": 39
+      },
+      {
+        "x": 24,
+        "y": 26
+      },
+      {
+        "x": 23,
+        "y": 27
+      },
+      {
+        "x": 37,
+        "y": 37
+      },
+      {
+        "x": 31,
+        "y": 23
+      },
+      {
+        "x": 22,
+        "y": 22
+      },
+      {
+        "x": 29,
+        "y": 26
+      },
+      {
+        "x": 39,
+        "y": 24
+      },
+      {
+        "x": 28,
+        "y": 32
+      },
+      {
+        "x": 20,
+        "y": 29
+      },
+      {
+        "x": 39,
+        "y": 21
+      },
+      {
+        "x": 24,
+        "y": 27
+      },
+      {
+        "x": 39,
+        "y": 28
+      },
+      {
+        "x": 20,
+        "y": 30
+      },
+      {
+        "x": 21,
+        "y": 28
+      }
+    ]
+  }
+}

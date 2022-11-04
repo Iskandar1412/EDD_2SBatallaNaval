@@ -1,0 +1,651 @@
+
+  {
+    "usuarios": [
+      {
+        "id": 28,
+        "nick": "Maricela1491",
+        "password": "TWIIST",
+        "monedas": 4033,
+        "edad": 56
+      },
+      {
+        "id": 36,
+        "nick": "Latasha4052",
+        "password": "NEBULEAN",
+        "monedas": 2808,
+        "edad": 37
+      },
+      {
+        "id": 34,
+        "nick": "Sanchez987",
+        "password": "GENMOM",
+        "monedas": 2169,
+        "edad": 12
+      },
+      {
+        "id": 29,
+        "nick": "Alberta2565",
+        "password": "PHOLIO",
+        "monedas": 6954,
+        "edad": 26
+      },
+      {
+        "id": 45,
+        "nick": "Potts4095",
+        "password": "AQUASSEUR",
+        "monedas": 2158,
+        "edad": 47
+      },
+      {
+        "id": 51,
+        "nick": "Becky9663",
+        "password": "OVERFORK",
+        "monedas": 9894,
+        "edad": 49
+      },
+      {
+        "id": 30,
+        "nick": "Mindy9491",
+        "password": "STEELTAB",
+        "monedas": 5186,
+        "edad": 48
+      },
+      {
+        "id": 45,
+        "nick": "Todd3981",
+        "password": "ZEAM",
+        "monedas": 6515,
+        "edad": 51
+      },
+      {
+        "id": 45,
+        "nick": "Janette085",
+        "password": "UNEEQ",
+        "monedas": 3204,
+        "edad": 28
+      },
+      {
+        "id": 13,
+        "nick": "Morris398",
+        "password": "ENTROFLEX",
+        "monedas": 6011,
+        "edad": 19
+      },
+      {
+        "id": 19,
+        "nick": "Garner8579",
+        "password": "MAGMINA",
+        "monedas": 3841,
+        "edad": 59
+      },
+      {
+        "id": 17,
+        "nick": "Sherry9599",
+        "password": "CORMORAN",
+        "monedas": 3291,
+        "edad": 50
+      },
+      {
+        "id": 8,
+        "nick": "Steele059",
+        "password": "ISOLOGICA",
+        "monedas": 5613,
+        "edad": 36
+      },
+      {
+        "id": 14,
+        "nick": "Freida8077",
+        "password": "LYRICHORD",
+        "monedas": 1030,
+        "edad": 15
+      },
+      {
+        "id": 44,
+        "nick": "Petra178",
+        "password": "ZIPAK",
+        "monedas": 9796,
+        "edad": 59
+      },
+      {
+        "id": 9,
+        "nick": "Doyle1863",
+        "password": "GADTRON",
+        "monedas": 9164,
+        "edad": 32
+      },
+      {
+        "id": 32,
+        "nick": "Randolph3074",
+        "password": "SUNCLIPSE",
+        "monedas": 1170,
+        "edad": 44
+      }
+    ],
+    "articulos": [
+      {
+        "id": 806,
+        "categoria": "Level4",
+        "precio": 23,
+        "nombre": "Rodgers",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a3.png"
+      },
+      {
+        "id": 1179,
+        "categoria": "Level4",
+        "precio": 34,
+        "nombre": "Randolph",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a1.png"
+      },
+      {
+        "id": 866,
+        "categoria": "Level3",
+        "precio": 36,
+        "nombre": "Blake",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a1.png"
+      },
+      {
+        "id": 1444,
+        "categoria": "Level3",
+        "precio": 22,
+        "nombre": "Contreras",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a1.png"
+      },
+      {
+        "id": 1254,
+        "categoria": "Level3",
+        "precio": 37,
+        "nombre": "Merrill",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a1.png"
+      },
+      {
+        "id": 886,
+        "categoria": "Level1",
+        "precio": 22,
+        "nombre": "Pierce",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a2.png"
+      },
+      {
+        "id": 1658,
+        "categoria": "Level1",
+        "precio": 21,
+        "nombre": "Winters",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a3.png"
+      },
+      {
+        "id": 850,
+        "categoria": "Level1",
+        "precio": 39,
+        "nombre": "Downs",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a3.png"
+      },
+      {
+        "id": 495,
+        "categoria": "Level1",
+        "precio": 38,
+        "nombre": "Adkins",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a2.png"
+      },
+      {
+        "id": 618,
+        "categoria": "Level4",
+        "precio": 26,
+        "nombre": "Baird",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a1.png"
+      },
+      {
+        "id": 1563,
+        "categoria": "Level1",
+        "precio": 32,
+        "nombre": "Olson",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a3.png"
+      },
+      {
+        "id": 1330,
+        "categoria": "Level1",
+        "precio": 22,
+        "nombre": "Wall",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a2.png"
+      },
+      {
+        "id": 1050,
+        "categoria": "Level3",
+        "precio": 27,
+        "nombre": "Alvarez",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a1.png"
+      },
+      {
+        "id": 1550,
+        "categoria": "Level1",
+        "precio": 37,
+        "nombre": "Salas",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a1.png"
+      },
+      {
+        "id": 1667,
+        "categoria": "Leve2",
+        "precio": 24,
+        "nombre": "Irwin",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a1.png"
+      },
+      {
+        "id": 1008,
+        "categoria": "Leve2",
+        "precio": 27,
+        "nombre": "Neal",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a1.png"
+      },
+      {
+        "id": 1236,
+        "categoria": "Leve2",
+        "precio": 22,
+        "nombre": "Hoffman",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a3.png"
+      },
+      {
+        "id": 544,
+        "categoria": "Leve2",
+        "precio": 28,
+        "nombre": "Carroll",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a1.png"
+      },
+      {
+        "id": 1529,
+        "categoria": "Leve2",
+        "precio": 23,
+        "nombre": "Rose",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a3.png"
+      },
+      {
+        "id": 1219,
+        "categoria": "Leve2",
+        "precio": 34,
+        "nombre": "Sharp",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a2.png"
+      },
+      {
+        "id": 1370,
+        "categoria": "Leve2",
+        "precio": 37,
+        "nombre": "Hamilton",
+        "src": "/home/ruri/Escritorio/Proyecto/Fase2/imgs/a3.png"
+      }
+    ],
+    "tutorial": {
+      "m": 44,
+      "movimientos": [
+        {
+          "x": 27,
+          "y": 24
+        },
+        {
+          "x": 40,
+          "y": 34
+        },
+        {
+          "x": 38,
+          "y": 36
+        },
+        {
+          "x": 25,
+          "y": 39
+        },
+        {
+          "x": 28,
+          "y": 40
+        },
+        {
+          "x": 32,
+          "y": 25
+        },
+        {
+          "x": 30,
+          "y": 32
+        },
+        {
+          "x": 35,
+          "y": 31
+        },
+        {
+          "x": 34,
+          "y": 36
+        },
+        {
+          "x": 25,
+          "y": 27
+        },
+        {
+          "x": 24,
+          "y": 36
+        },
+        {
+          "x": 37,
+          "y": 29
+        },
+        {
+          "x": 25,
+          "y": 32
+        },
+        {
+          "x": 26,
+          "y": 37
+        },
+        {
+          "x": 36,
+          "y": 35
+        },
+        {
+          "x": 25,
+          "y": 26
+        },
+        {
+          "x": 33,
+          "y": 28
+        },
+        {
+          "x": 33,
+          "y": 39
+        },
+        {
+          "x": 36,
+          "y": 29
+        },
+        {
+          "x": 40,
+          "y": 29
+        },
+        {
+          "x": 40,
+          "y": 21
+        },
+        {
+          "x": 26,
+          "y": 38
+        },
+        {
+          "x": 40,
+          "y": 24
+        },
+        {
+          "x": 21,
+          "y": 22
+        },
+        {
+          "x": 37,
+          "y": 32
+        },
+        {
+          "x": 29,
+          "y": 27
+        },
+        {
+          "x": 27,
+          "y": 24
+        },
+        {
+          "x": 24,
+          "y": 31
+        },
+        {
+          "x": 26,
+          "y": 37
+        },
+        {
+          "x": 20,
+          "y": 33
+        },
+        {
+          "x": 28,
+          "y": 24
+        },
+        {
+          "x": 28,
+          "y": 28
+        },
+        {
+          "x": 39,
+          "y": 20
+        },
+        {
+          "x": 28,
+          "y": 36
+        },
+        {
+          "x": 21,
+          "y": 26
+        },
+        {
+          "x": 30,
+          "y": 38
+        },
+        {
+          "x": 22,
+          "y": 28
+        },
+        {
+          "x": 31,
+          "y": 36
+        },
+        {
+          "x": 36,
+          "y": 31
+        },
+        {
+          "x": 37,
+          "y": 30
+        },
+        {
+          "x": 33,
+          "y": 32
+        },
+        {
+          "x": 24,
+          "y": 26
+        },
+        {
+          "x": 29,
+          "y": 26
+        },
+        {
+          "x": 36,
+          "y": 34
+        },
+        {
+          "x": 26,
+          "y": 23
+        },
+        {
+          "x": 36,
+          "y": 34
+        },
+        {
+          "x": 23,
+          "y": 24
+        },
+        {
+          "x": 39,
+          "y": 24
+        },
+        {
+          "x": 40,
+          "y": 25
+        },
+        {
+          "x": 35,
+          "y": 33
+        },
+        {
+          "x": 31,
+          "y": 35
+        },
+        {
+          "x": 38,
+          "y": 38
+        },
+        {
+          "x": 31,
+          "y": 35
+        },
+        {
+          "x": 37,
+          "y": 33
+        },
+        {
+          "x": 20,
+          "y": 32
+        },
+        {
+          "x": 26,
+          "y": 24
+        },
+        {
+          "x": 38,
+          "y": 39
+        },
+        {
+          "x": 20,
+          "y": 29
+        },
+        {
+          "x": 22,
+          "y": 37
+        },
+        {
+          "x": 32,
+          "y": 30
+        },
+        {
+          "x": 35,
+          "y": 31
+        },
+        {
+          "x": 33,
+          "y": 39
+        },
+        {
+          "x": 23,
+          "y": 37
+        },
+        {
+          "x": 29,
+          "y": 25
+        },
+        {
+          "x": 38,
+          "y": 36
+        },
+        {
+          "x": 36,
+          "y": 29
+        },
+        {
+          "x": 24,
+          "y": 26
+        },
+        {
+          "x": 23,
+          "y": 37
+        },
+        {
+          "x": 31,
+          "y": 20
+        },
+        {
+          "x": 26,
+          "y": 37
+        },
+        {
+          "x": 35,
+          "y": 26
+        },
+        {
+          "x": 32,
+          "y": 22
+        },
+        {
+          "x": 29,
+          "y": 22
+        },
+        {
+          "x": 39,
+          "y": 34
+        },
+        {
+          "x": 22,
+          "y": 21
+        },
+        {
+          "x": 35,
+          "y": 22
+        },
+        {
+          "x": 26,
+          "y": 21
+        },
+        {
+          "x": 27,
+          "y": 28
+        },
+        {
+          "x": 38,
+          "y": 27
+        },
+        {
+          "x": 24,
+          "y": 38
+        },
+        {
+          "x": 30,
+          "y": 40
+        },
+        {
+          "x": 29,
+          "y": 38
+        },
+        {
+          "x": 22,
+          "y": 40
+        },
+        {
+          "x": 23,
+          "y": 31
+        },
+        {
+          "x": 26,
+          "y": 39
+        },
+        {
+          "x": 26,
+          "y": 26
+        },
+        {
+          "x": 31,
+          "y": 22
+        },
+        {
+          "x": 30,
+          "y": 20
+        },
+        {
+          "x": 27,
+          "y": 30
+        },
+        {
+          "x": 21,
+          "y": 39
+        },
+        {
+          "x": 32,
+          "y": 35
+        },
+        {
+          "x": 27,
+          "y": 25
+        },
+        {
+          "x": 30,
+          "y": 27
+        }
+      ]
+    }
+  }
+

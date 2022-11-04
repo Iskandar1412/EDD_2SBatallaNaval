@@ -1,0 +1,9 @@
+swig -python -c++ Merkle.i
+g++ -c -fpic Merkle_wrap.cxx -I/usr/include/python3.10
+g++ -shared Merkle_wrap.o -o _Merkle.so
+
+para iniciar programa dinamico sin que de error
+
+python3
+import Merkle
+exit()

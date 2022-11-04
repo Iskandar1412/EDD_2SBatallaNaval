@@ -1,0 +1,9 @@
+swig -python -c++ Block.i
+g++ -c -fpic Block_wrap.cxx -I/usr/include/python3.10
+g++ -shared Block_wrap.o -o _Block.so
+
+para iniciar programa dinamico sin que de error
+
+python3
+import Block
+exit()

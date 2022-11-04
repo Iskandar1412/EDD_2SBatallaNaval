@@ -1,0 +1,9 @@
+swig -python -c++ ListadeListas.i
+g++ -c -fpic ListadeListas_wrap.cxx -I/usr/include/python3.10
+g++ -shared ListadeListas_wrap.o -o _ListadeListas.so
+
+para iniciar programa dinamico sin que de error
+
+python3
+import ListadeListas
+exit()

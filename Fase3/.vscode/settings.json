@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "iomanip": "cpp",
+        "new": "cpp",
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "sha256.h": "c"
+    },
+    "python.analysis.typeCheckingMode": "off"
+}

@@ -1,0 +1,9 @@
+swig -python -c++ cola.i
+g++ -c -fpic cola_wrap.cxx -I/usr/include/python3.10
+g++ -shared cola_wrap.o -o _cola.so
+
+para iniciar programa dinamico sin que de error
+
+python3
+import cola
+exit()

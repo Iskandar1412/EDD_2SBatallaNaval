@@ -1,0 +1,254 @@
+digraph G{
+	color="transparent";
+	subgraph cluster_0{
+		node[shape=box];
+		edge[color="gray38"];
+		subgraph date_inicial{
+			rank=NS;
+			node[color="orangered1", fontcolor="orangered1"];
+			y1[label="1"];
+			y2[label="2"];
+			y3[label="3"];
+			y4[label="4"];
+			y5[label="5"];
+			y6[label="6"];
+			y7[label="7"];
+			y8[label="8"];
+			y9[label="9"];
+			y10[label="10"];
+			y1 -> y2;
+			y2 -> y3;
+			y3 -> y4;
+			y4 -> y5;
+			y5 -> y6;
+			y6 -> y7;
+			y7 -> y8;
+			y8 -> y9;
+			y9 -> y10;
+		}
+		subgraph sub_0{
+			rank=same;
+			node[color="darkslateblue", fontcolor="darkslateblue"];
+			i1_1[label="X1"];
+			i1_2[label="X2"];
+			i1_3[label="X3"];
+			i1_4[label="X4"];
+			i1_5[label="X5"];
+			i1_6[label="X6"];
+			i1_7[label="X7"];
+			i1_8[label="X8"];
+			i1_9[label="X9"];
+			i1_10[label="X10"];
+			i1_1 -> i1_2;
+			i1_2 -> i1_3;
+			i1_3 -> i1_4;
+			i1_4 -> i1_5;
+			i1_5 -> i1_6;
+			i1_6 -> i1_7;
+			i1_7 -> i1_8;
+			i1_8 -> i1_9;
+			i1_9 -> i1_10;
+			y1 -> i1_1;
+		}
+		subgraph sub_1{
+			rank=same;
+			node[color="darkslateblue", fontcolor="darkslateblue"];
+			i2_1[label="X1"];
+			i2_2[label="X2"];
+			i2_3[label="X3"];
+			i2_4[label="X4"];
+			i2_5[label="X5"];
+			i2_6[label="X6"];
+			i2_7[label="X7"];
+			i2_8[label="X8"];
+			i2_9[label="X9"];
+			i2_10[label="X10"];
+			i2_1 -> i2_2;
+			i2_2 -> i2_3;
+			i2_3 -> i2_4;
+			i2_4 -> i2_5;
+			i2_5 -> i2_6;
+			i2_6 -> i2_7;
+			i2_7 -> i2_8;
+			i2_8 -> i2_9;
+			i2_9 -> i2_10;
+			y2 -> i2_1;
+		}
+		subgraph sub_2{
+			rank=same;
+			node[color="darkslateblue", fontcolor="darkslateblue"];
+			i3_1[label="X1"];
+			i3_2[label="X2"];
+			i3_3[label="X3"];
+			i3_4[label="X4"];
+			i3_5[label="X5"];
+			i3_6[label="X6"];
+			i3_7[label="X7"];
+			i3_8[label="X8"];
+			i3_1 -> i3_2;
+			i3_2 -> i3_3;
+			i3_3 -> i3_4;
+			i3_4 -> i3_5;
+			i3_5 -> i3_6;
+			i3_6 -> i3_7;
+			i3_7 -> i3_8;
+			y3 -> i3_1;
+		}
+		subgraph sub_3{
+			rank=same;
+			node[color="darkslateblue", fontcolor="darkslateblue"];
+		}
+		subgraph sub_4{
+			rank=same;
+			node[color="darkslateblue", fontcolor="darkslateblue"];
+			i5_6[label="X6"];
+			i5_9[label="X9"];
+			i5_6 -> i5_9;
+			y5 -> i5_6;
+		}
+		subgraph sub_5{
+			rank=same;
+			node[color="darkslateblue", fontcolor="darkslateblue"];
+			i6_4[label="X4"];
+			i6_6[label="X6"];
+			i6_4 -> i6_6;
+			y6 -> i6_4;
+		}
+		subgraph sub_6{
+			rank=same;
+			node[color="darkslateblue", fontcolor="darkslateblue"];
+			i7_4[label="X4"];
+			i7_7[label="X7"];
+			i7_4 -> i7_7;
+			y7 -> i7_4;
+		}
+		subgraph sub_7{
+			rank=same;
+			node[color="darkslateblue", fontcolor="darkslateblue"];
+		}
+		subgraph sub_8{
+			rank=same;
+			node[color="darkslateblue", fontcolor="darkslateblue"];
+			i9_9[label="X9"];
+			y9 -> i9_9;
+		}
+		subgraph sub_9{
+			rank=same;
+			node[color="darkslateblue", fontcolor="darkslateblue"];
+			i10_10[label="X10"];
+			y10 -> i10_10;
+		}
+	}
+	subgraph cluster_1{
+		node[color="firebrick", fontcolor="firebrick"];
+		edge[color="dimgrey"];
+		r1[label="1"];
+		r1[label="1"];
+		r1 -> r1;
+		r1[label="1"];
+		r2[label="2"];
+		r1 -> r2;
+		r1[label="1"];
+		r3[label="3"];
+		r1 -> r3;
+		r1[label="1"];
+		r4[label="4"];
+		r1 -> r4;
+		r1[label="1"];
+		r5[label="5"];
+		r1 -> r5;
+		r1[label="1"];
+		r6[label="6"];
+		r1 -> r6;
+		r1[label="1"];
+		r7[label="7"];
+		r1 -> r7;
+		r1[label="1"];
+		r8[label="8"];
+		r1 -> r8;
+		r1[label="1"];
+		r9[label="9"];
+		r1 -> r9;
+		r1[label="1"];
+		r10[label="10"];
+		r1 -> r10;
+		r2[label="2"];
+		r1[label="1"];
+		r2 -> r1;
+		r2[label="2"];
+		r2[label="2"];
+		r2 -> r2;
+		r2[label="2"];
+		r3[label="3"];
+		r2 -> r3;
+		r2[label="2"];
+		r4[label="4"];
+		r2 -> r4;
+		r2[label="2"];
+		r5[label="5"];
+		r2 -> r5;
+		r2[label="2"];
+		r6[label="6"];
+		r2 -> r6;
+		r2[label="2"];
+		r7[label="7"];
+		r2 -> r7;
+		r2[label="2"];
+		r8[label="8"];
+		r2 -> r8;
+		r2[label="2"];
+		r9[label="9"];
+		r2 -> r9;
+		r2[label="2"];
+		r10[label="10"];
+		r2 -> r10;
+		r3[label="3"];
+		r1[label="1"];
+		r3 -> r1;
+		r3[label="3"];
+		r2[label="2"];
+		r3 -> r2;
+		r3[label="3"];
+		r3[label="3"];
+		r3 -> r3;
+		r3[label="3"];
+		r4[label="4"];
+		r3 -> r4;
+		r3[label="3"];
+		r5[label="5"];
+		r3 -> r5;
+		r3[label="3"];
+		r6[label="6"];
+		r3 -> r6;
+		r3[label="3"];
+		r7[label="7"];
+		r3 -> r7;
+		r3[label="3"];
+		r8[label="8"];
+		r3 -> r8;
+		r5[label="5"];
+		r6[label="6"];
+		r5 -> r6;
+		r5[label="5"];
+		r9[label="9"];
+		r5 -> r9;
+		r6[label="6"];
+		r4[label="4"];
+		r6 -> r4;
+		r6[label="6"];
+		r6[label="6"];
+		r6 -> r6;
+		r7[label="7"];
+		r4[label="4"];
+		r7 -> r4;
+		r7[label="7"];
+		r7[label="7"];
+		r7 -> r7;
+		r9[label="9"];
+		r9[label="9"];
+		r9 -> r9;
+		r10[label="10"];
+		r10[label="10"];
+		r10 -> r10;
+	}
+}

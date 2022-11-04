@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "*.cpp": "cpp",
+        "iostream": "cpp",
+        "cstring": "cpp",
+        "iosfwd": "cpp",
+        "new": "cpp",
+        "string": "cpp",
+        "ostream": "cpp",
+        "iomanip": "cpp",
+        "*.tcc": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "string_view": "cpp"
+    }
+}

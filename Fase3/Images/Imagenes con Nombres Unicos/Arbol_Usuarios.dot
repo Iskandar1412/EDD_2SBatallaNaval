@@ -1,0 +1,18 @@
+digraph G{
+node[shape=record, color=blue];
+R0x56508a5a3900[label="<C1>|ID: 102\nUsr: u1\nPass: 7e8cdd9f83386d17d50f569c593e91b9e1edea09e2fb505a282f30bdf9325f61\nEdad: 47\nMonedas: 6976|<C2>"];
+R0x56508a5a3760[label="<C1>|ID: 70\nUsr: Lauren4488\nPass: 857aba7c59662e1c306cf59c0c2199ec1d2ce895a928fb62b54f034760ebe8a6\nEdad: 11\nMonedas: 7632|<C2>|ID: 92\nUsr: Twila8587\nPass: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\nEdad: 16\nMonedas: 4190|<C3>"];
+R0x56508a5a2240[label="ID: 1\nUsr: EDD\nPass: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\nEdad: 22\nMonedas: 5669|ID: 34\nUsr: ultimo\nPass: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\nEdad: 25\nMonedas: 5258|ID: 56\nUsr: u3\nPass: 591343a2e39bc22cead8b52dbe14eb273ffc37e5832567e58bb9092ceedb06ad\nEdad: 32\nMonedas: 6901"];
+R0x56508a5a2da0[label="ID: 73\nUsr: Letitia8666\nPass: 36c3c5ad460e3bd658efa29a85dd0696d40a1fe836cfcf69aa4629ddef8778a2\nEdad: 53\nMonedas: 4440|ID: 79\nUsr: Diane8189\nPass: f64d723543fb050bc0c2b3b7d4bfd3440d32a1456c17b8cdc9eb1a3303a0535f\nEdad: 50\nMonedas: 7572"];
+R0x56508a5a31b0[label="ID: 97\nUsr: u2\nPass: fb347a617588834985189b855f77a8babd9a4bc2e5e8d1b5ce4c5b377060e984\nEdad: 56\nMonedas: 4232|ID: 100\nUsr: Dejesus2371\nPass: a4df5bbd8151160d9cdb32029ea406fcd03fcbbeb56ae7585c1ec6bbf795e550\nEdad: 47\nMonedas: 6928"];
+R0x56508a5a39d0[label="<C1>|ID: 117\nUsr: Liz7870\nPass: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\nEdad: 59\nMonedas: 7674|<C2>"];
+R0x56508a5a3420[label="ID: 104\nUsr: u4\nPass: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3\nEdad: 30\nMonedas: 8616|ID: 112\nUsr: Tabatha9866\nPass: 4fb135763766272d2512b797f00597f22b474b0bc7fc576dcb24816a0556cd48\nEdad: 58\nMonedas: 6676"];
+R0x56508a5a3690[label="ID: 119\nUsr: Young1259\nPass: 28287a8da537bca9d1d2acfa80a6777313195d86fe67a7bace5d4d01096126b8\nEdad: 54\nMonedas: 1076"];
+R0x56508a5a3900:C1->R0x56508a5a3760[color=red];
+R0x56508a5a3760:C1->R0x56508a5a2240[color=red];
+R0x56508a5a3760:C2->R0x56508a5a2da0[color=red];
+R0x56508a5a3760:C3->R0x56508a5a31b0[color=red];
+R0x56508a5a3900:C2->R0x56508a5a39d0[color=red];
+R0x56508a5a39d0:C1->R0x56508a5a3420[color=red];
+R0x56508a5a39d0:C2->R0x56508a5a3690[color=red];
+}

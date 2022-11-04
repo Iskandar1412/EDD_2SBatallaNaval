@@ -1,0 +1,58 @@
+{
+"INDEX":3,
+"TIMESTAMP":"04:11:22::12:43:45",
+"NONCE":401,
+"DATA":{
+"FROM":"0x09d05903662eB0262E086B3cc62e85eC62c05c7F",
+"SKINS":[
+	{
+		"SKIN":1384,
+		"VALUE":39
+	},
+	{
+		"SKIN":660,
+		"VALUE":38
+	},
+	{
+		"SKIN":1106,
+		"VALUE":39
+	},
+	{
+		"SKIN":1530,
+		"VALUE":35
+	},
+	{
+		"SKIN":1092,
+		"VALUE":26
+	},
+	{
+		"SKIN":887,
+		"VALUE":36
+	},
+	{
+		"SKIN":1821,
+		"VALUE":34
+	},
+	{
+		"SKIN":1791,
+		"VALUE":36
+	},
+	{
+		"SKIN":501,
+		"VALUE":33
+	},
+	{
+		"SKIN":754,
+		"VALUE":39
+	},
+	{
+		"SKIN":1384,
+		"VALUE":39
+	},
+
+]
+},
+"PREVIOUSHASH":"008674aed58936cc57ac15751d084fbdd2158246d8752190cee7b11ef0025c56",
+"ROOTMERKLE":"7909b2d66833a116eba54dc0b8ef58b36cbebed784bdb927d464c2c273093549",
+"HASH":"00d1a83e4b84bcee836d28f394ab66eb11bb61d8190ae6dac523af3a55ffe3cb"
+}

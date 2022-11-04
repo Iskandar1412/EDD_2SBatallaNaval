@@ -1,0 +1,15 @@
+digraph G{label = "Compras EDD" fontname="Arial Black" fontsize="15pt";
+node [shape = diamond, style=filled, fillcolor=black, fontcolor=white];
+N4[label = "ID: 1179\nNombre: Randolph\nCantidad: 12"];
+N5[label = "ID: 1050\nNombre: Alvarez\nCantidad: 100"];
+N6[label = "ID: 495\nNombre: Adkins\nCantidad: 12"];
+N5:C0->N6
+N4:C0->N5
+N2[label = "ID: 1550\nNombre: Salas\nCantidad: 12"];
+N3[label = "ID: 1444\nNombre: Contreras\nCantidad: 46"];
+N2:C0->N3
+N1[label = "ID: 1563\nNombre: Olson\nCantidad: 32"];
+N2:C1->N1
+N4:C1->N2
+
+}

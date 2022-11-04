@@ -1,0 +1,9 @@
+swig -python -c++ AVLTree.i
+g++ -c -fpic AVLTree_wrap.cxx -I/usr/include/python3.10
+g++ -shared AVLTree_wrap.o -o _AVLTree.so
+
+para iniciar programa dinamico sin que de error
+
+python3
+import AVLTree
+exit()

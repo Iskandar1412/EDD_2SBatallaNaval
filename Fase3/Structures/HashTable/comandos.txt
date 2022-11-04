@@ -1,0 +1,9 @@
+swig -python -c++ Hash2.i
+g++ -c -fpic Hash2_wrap.cxx -I/usr/include/python3.10
+g++ -shared Hash2_wrap.o -o _Hash2.so
+
+para iniciar programa dinamico sin que de error
+
+python3
+import Hash2
+exit()

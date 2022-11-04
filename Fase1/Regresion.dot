@@ -1,0 +1,556 @@
+digraph G{
+
+label="(lista5) Pila Regresion";
+subgraph{
+node[shape=plaintext];
+n0_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 0</TD></TR>
+<TR><TD>(5, 5)</TD></TR>
+<TR><TD>(6, 6)</TD></TR>
+<TR><TD>(4, 4)</TD></TR>
+<TR><TD>(5, 5)</TD></TR>
+<TR><TD>(3, 3)</TD></TR>
+<TR><TD>(1, 1)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(6, 0)</TD></TR>
+<TR><TD>(3, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(6, 2)</TD></TR>
+<TR><TD>(5, 4)</TD></TR>
+<TR><TD>(0, 7)</TD></TR>
+<TR><TD>(0, 8)</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n1_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 1</TD></TR>
+<TR><TD>(6, 6)</TD></TR>
+<TR><TD>(4, 4)</TD></TR>
+<TR><TD>(5, 5)</TD></TR>
+<TR><TD>(3, 3)</TD></TR>
+<TR><TD>(1, 1)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(6, 0)</TD></TR>
+<TR><TD>(3, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(6, 2)</TD></TR>
+<TR><TD>(5, 4)</TD></TR>
+<TR><TD>(0, 7)</TD></TR>
+<TR><TD>(0, 8)</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n2_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 2</TD></TR>
+<TR><TD>(4, 4)</TD></TR>
+<TR><TD>(5, 5)</TD></TR>
+<TR><TD>(3, 3)</TD></TR>
+<TR><TD>(1, 1)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(6, 0)</TD></TR>
+<TR><TD>(3, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(6, 2)</TD></TR>
+<TR><TD>(5, 4)</TD></TR>
+<TR><TD>(0, 7)</TD></TR>
+<TR><TD>(0, 8)</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n3_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 3</TD></TR>
+<TR><TD>(5, 5)</TD></TR>
+<TR><TD>(3, 3)</TD></TR>
+<TR><TD>(1, 1)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(6, 0)</TD></TR>
+<TR><TD>(3, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(6, 2)</TD></TR>
+<TR><TD>(5, 4)</TD></TR>
+<TR><TD>(0, 7)</TD></TR>
+<TR><TD>(0, 8)</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n4_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 4</TD></TR>
+<TR><TD>(3, 3)</TD></TR>
+<TR><TD>(1, 1)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(6, 0)</TD></TR>
+<TR><TD>(3, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(6, 2)</TD></TR>
+<TR><TD>(5, 4)</TD></TR>
+<TR><TD>(0, 7)</TD></TR>
+<TR><TD>(0, 8)</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n5_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 5</TD></TR>
+<TR><TD>(1, 1)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(6, 0)</TD></TR>
+<TR><TD>(3, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(6, 2)</TD></TR>
+<TR><TD>(5, 4)</TD></TR>
+<TR><TD>(0, 7)</TD></TR>
+<TR><TD>(0, 8)</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n6_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 6</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(6, 0)</TD></TR>
+<TR><TD>(3, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(6, 2)</TD></TR>
+<TR><TD>(5, 4)</TD></TR>
+<TR><TD>(0, 7)</TD></TR>
+<TR><TD>(0, 8)</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n7_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 7</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(6, 0)</TD></TR>
+<TR><TD>(3, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(6, 2)</TD></TR>
+<TR><TD>(5, 4)</TD></TR>
+<TR><TD>(0, 7)</TD></TR>
+<TR><TD>(0, 8)</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n8_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 8</TD></TR>
+<TR><TD>(6, 0)</TD></TR>
+<TR><TD>(3, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(6, 2)</TD></TR>
+<TR><TD>(5, 4)</TD></TR>
+<TR><TD>(0, 7)</TD></TR>
+<TR><TD>(0, 8)</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n9_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 9</TD></TR>
+<TR><TD>(3, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(6, 2)</TD></TR>
+<TR><TD>(5, 4)</TD></TR>
+<TR><TD>(0, 7)</TD></TR>
+<TR><TD>(0, 8)</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n10_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 10</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(6, 2)</TD></TR>
+<TR><TD>(5, 4)</TD></TR>
+<TR><TD>(0, 7)</TD></TR>
+<TR><TD>(0, 8)</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n11_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 11</TD></TR>
+<TR><TD>(6, 2)</TD></TR>
+<TR><TD>(5, 4)</TD></TR>
+<TR><TD>(0, 7)</TD></TR>
+<TR><TD>(0, 8)</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n12_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 12</TD></TR>
+<TR><TD>(5, 4)</TD></TR>
+<TR><TD>(0, 7)</TD></TR>
+<TR><TD>(0, 8)</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n13_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 13</TD></TR>
+<TR><TD>(0, 7)</TD></TR>
+<TR><TD>(0, 8)</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n14_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 14</TD></TR>
+<TR><TD>(0, 8)</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n15_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 15</TD></TR>
+<TR><TD>(4, 9)</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n16_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 16</TD></TR>
+<TR><TD>(5, 6)</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n17_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 17</TD></TR>
+<TR><TD>(3, 0)</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n18_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 18</TD></TR>
+<TR><TD>(0, 5)</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n19_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 19</TD></TR>
+<TR><TD>(0, 1)</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n20_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 20</TD></TR>
+<TR><TD>(1, 2)</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n21_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 21</TD></TR>
+<TR><TD>(0, 0)</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n22_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 22</TD></TR>
+<TR><TD>(5, 9)</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n23_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 23</TD></TR>
+<TR><TD>(4, 6)</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+subgraph{
+node[shape=plaintext];
+n24_sub[label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+<TR><TD bgcolor="gray">Regresion 24</TD></TR>
+<TR><TD>(2, 3)</TD></TR>
+</TABLE>>];
+
+}
+{rank=same;
+n0_sub->n1_sub;
+n1_sub->n2_sub;
+n2_sub->n3_sub;
+n3_sub->n4_sub;
+n4_sub->n5_sub;
+n5_sub->n6_sub;
+n6_sub->n7_sub;
+n7_sub->n8_sub;
+n8_sub->n9_sub;
+n9_sub->n10_sub;
+n10_sub->n11_sub;
+n11_sub->n12_sub;
+n12_sub->n13_sub;
+n13_sub->n14_sub;
+n14_sub->n15_sub;
+n15_sub->n16_sub;
+n16_sub->n17_sub;
+n17_sub->n18_sub;
+n18_sub->n19_sub;
+n19_sub->n20_sub;
+n20_sub->n21_sub;
+n21_sub->n22_sub;
+n22_sub->n23_sub;
+n23_sub->n24_sub;
+}
+
+}

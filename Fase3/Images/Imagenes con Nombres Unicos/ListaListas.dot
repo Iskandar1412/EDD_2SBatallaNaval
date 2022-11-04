@@ -1,0 +1,6 @@
+digraph G{
+label="ListaListas";
+node[shape=box];
+{rank=same;
+}
+}

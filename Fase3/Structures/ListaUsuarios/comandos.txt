@@ -1,0 +1,3 @@
+swig -python -c++ Usuarios.i
+g++ -c -fpic Usuarios_wrap.cxx -I/usr/include/python3.10
+g++ -shared Usuarios_wrap.o -o _Usuarios.so
